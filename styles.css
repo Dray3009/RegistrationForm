@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #212122;
+}
+
+.container {
+  background-color: #db324d;
+  width: 420px;
+  position: relative;
+  border-radius: 20px;
+  padding: 30px 20px;
+}
+
+.container h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #162c3e;
+}
+
+.input-box {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  border-bottom: 2px solid #162c3e;
+  margin: 20px 0;
+}
+
+.input-box input {
+  position: relative;
+  padding: 0px, 35px, 0px, 5px;
+  top: 50px;
+  left: 5px;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.input-box input::placeholder {
+  color: #96acbe;
+}
+
+.input-box i {
+  position: absolute;
+  color: #162c3e;
+  right: 12px;
+  line-height: 100px;
+}
+
+.container textarea {
+  width: 380px;
+  height: 220px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.text-box {
+  text-align: center;
+  padding: 2px, 2px, 2px, 2px;
+}
+
+.check-box {
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  color: #162c3e;
+}
+
+.check-box label input {
+  accent-color: #162c3e;
+  margin-right: 3px;
+}
+
+.container .btn button {
+  width: 100%;
+  height: 45px;
+  background: #162c3e;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: 0, 0, 10px rgba(0, 0, 0, 0.1);
+}
